@@ -47,13 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmProduct.Actions.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FrmProduct.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmProduct.Designer.cs">
       <DependentUpon>FrmProduct.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProduct.Grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageHelper.cs" />
     <Compile Include="Product.cs" />
+    <Compile Include="ProductExporter.cs" />
+    <Compile Include="ProductRepository.cs" />
+    <Compile Include="ProductValidator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmProduct.resx">
