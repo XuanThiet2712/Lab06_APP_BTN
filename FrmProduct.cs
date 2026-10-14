@@ -121,5 +121,15 @@ namespace Lab06_App
         {
 
         }
+
+        private void mnuGioiThieu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chứcNăngToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

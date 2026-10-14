@@ -216,5 +216,23 @@ namespace Lab06_App
                 UpdateStatus("Đã xuất file: " + sfd.FileName);
             }
         }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // FrmProduct
+            // 
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Name = "FrmProduct";
+            this.Load += new System.EventHandler(this.FrmProduct_Load);
+            this.ResumeLayout(false);
+
+        }
+
+        private void FrmProduct_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

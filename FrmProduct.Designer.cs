@@ -127,6 +127,7 @@
             this.mnuGioiThieu.Name = "mnuGioiThieu";
             this.mnuGioiThieu.Size = new System.Drawing.Size(87, 24);
             this.mnuGioiThieu.Text = "Giới thiệu";
+            this.mnuGioiThieu.Click += new System.EventHandler(this.mnuGioiThieu_Click);
             // 
             // chứcNăngToolStripMenuItem
             // 
@@ -138,6 +139,7 @@
             this.chứcNăngToolStripMenuItem.Name = "chứcNăngToolStripMenuItem";
             this.chứcNăngToolStripMenuItem.Size = new System.Drawing.Size(93, 24);
             this.chứcNăngToolStripMenuItem.Text = "Chức năng";
+            this.chứcNăngToolStripMenuItem.Click += new System.EventHandler(this.chứcNăngToolStripMenuItem_Click);
             // 
             // mnuThem
             // 
